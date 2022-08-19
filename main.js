@@ -19,6 +19,7 @@ function speak(){
     setTimeout(function(){
         img_id = "selfie1";
         take_snapshot();
+        synth=window.speechSynthesis
         speak_data="taking your selfie in 1 seconds"
         var utterThis = new SpeechSynthesisUtterance(speak_data);
         synth.speak(utterThis);
@@ -26,6 +27,7 @@ function speak(){
     setTimeout(function(){
         img_id = "selfie2";
         take_snapshot();
+        synth=window.speechSynthesis
         speak_data="taking your selfie in 2 seconds"
         var utterThis = new SpeechSynthesisUtterance(speak_data);
         synth.speak(utterThis);
@@ -33,6 +35,7 @@ function speak(){
     setTimeout(function(){
         img_id = "selfie3";
         take_snapshot();
+        synth=window.speechSynthesis
         speak_data="taking your selfie in 3 seconds"
         var utterThis = new SpeechSynthesisUtterance(speak_data);
         synth.speak(utterThis);
